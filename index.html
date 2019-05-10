@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive web design</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8"/>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+   
+    </head>
+<body>
+    <p id="demo"></p>
+     <script>
+ 
+      
+        /* $(window).resize(function(){
+                       var windowwidth =  $(window).width();
+       
+        var windowheight =  $(window).height();
+        
+        var size = windowwidth +"x"+windowheight;
+    console.log(size); 
+               $("#demo").html(size);
+               $("#demo").css("transition","10s");
+                          });
+         $(document).ready(function(){
+                var windowwidth =  $(window).width();
+       
+        var windowheight =  $(window).height();
+        
+        var size = windowwidth +"x"+windowheight;
+    console.log(size); 
+               $("#demo").html(size);
+             $("#demo").css("transition","10s");
+         })*/
+         
+           $(document).ready(function(){
+               $(window).resize(function(){
+                       var windowwidth =  $(window).width();
+       
+        var windowheight =  $(window).height();
+        
+        var size = windowwidth +"x"+windowheight;
+    console.log(size); 
+               $("#demo").html(size);
+               $("#demo").css("transition","10s");
+                          });
+               
+           });
+         
+    </script>
+    <div id="container">
+    <header class="main-header">
+        <img id="logo" src="img/logo.png" alt="resproject"
+/>  
+        <nav class="main-nav">
+          <ul>
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">Learn</a></li>
+               <li><a href="#">Brain Strom</a></li>
+               <li><a href="#">Collabrate</a></li>
+               <li><a href="#">Teach</a></li>
+            
+            </ul>
+        
+        
+        </nav>
+        </header>
+        <div id="main">
+        <div id="content">
+            <article class="art1">
+                <header class="artheader">
+                <h2 class="title"><a href="#">First Post</a></h2>
+                    <span>Created by Brad sean on october7, 2013</span>
+                </header>
+                
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu est, lacinia et nisi nec, vehicula pretium magna. Nulla ut nisl vel lorem posuere aliquam a feugiat sapien. Suspendisse tincidunt mauris at consequat ornare. Donec condimentum consequat felis a sodales. Donec vestibulum imperdiet nisl id vulputate.   </p>
+                
+					<p>Aenean in tellus ut nibh dignissim adipiscing nec eget libero. Donec eu diam quam. Sed fermentum elementum ultrices. Aliquam erat volutpat. Integer sollicitudin lacus quis est elementum tincidunt. Praesent mattis, felis a hendrerit tempus, risus orci mollis massa, a porta lorem libero id purus.  </p>
+                <a href="#" class="readmore">Read more</a>
+            
+            </article>
+            <article class="art2">
+                <header class="artheader">
+                <h2 class="title"><a href="#">Second Post</a></h2>
+                    <span>Created by Brad sean on october10, 2013</span>
+                </header>
+                	<p>Aenean in tellus ut nibh dignissim adipiscing nec eget libero. Donec eu diam quam. Sed fermentum elementum ultrices. Aliquam erat volutpat. Integer sollicitudin lacus quis est elementum tincidunt. Praesent mattis, felis a hendrerit tempus, risus orci mollis massa, a porta lorem libero id purus.  </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu est, lacinia et nisi nec, vehicula pretium magna. Nulla ut nisl vel lorem posuere aliquam a feugiat sapien. Suspendisse tincidunt mauris at consequat ornare. Donec condimentum consequat felis a sodales. Donec vestibulum imperdiet nisl id vulputate.   </p>
+                
+				
+                <a href="#" class="readmore">Read more</a>
+            
+            </article>
+            </div>
+            <aside id="sidebar">
+                <div class="block">
+             
+                  
+                <h2 class="title"><a href="#">Top Sidebar</a></h2>
+                
+                	<p>Aenean in tellus ut nibh dignissim adipiscing nec eget libero. Donec eu diam quam. Sed fermentum elementum ultrices. Aliquam erat volutpat. Integer sollicitudin lacus quis est elementum tincidunt. Praesent mattis, felis a hendrerit tempus, risus orci mollis massa, a porta lorem libero id purus.  </p>
+                </div>
+                 <div class="block">
+             
+                  
+                <h2 class="title"><a href="#">Mid Sidebar</a></h2>
+                
+                	<p>Aenean in tellus ut nibh dignissim adipiscing nec eget libero. Donec eu diam quam. Sed fermentum elementum ultrices. Aliquam erat volutpat. Integer sollicitudin lacus quis est elementum tincidunt. Praesent mattis, felis a hendrerit tempus, risus orci mollis massa, a porta lorem libero id purus.  </p>
+                </div>
+                
+                  <div class="block">
+             
+                  
+                <h2 class="title"><a href="#">Bottom Sidebar</a></h2>
+                
+                	<p>Aenean in tellus ut nibh dignissim adipiscing nec eget libero. Donec eu diam quam. Sed fermentum elementum ultrices. Aliquam erat volutpat. Integer sollicitudin lacus quis est elementum tincidunt. Praesent mattis, felis a hendrerit tempus, risus orci mollis massa, a porta lorem libero id purus.  </p>
+                </div>
+            </aside>
+            
+            
+        
+        </div>
+        
+        <div class="clr"></div>
+        <footer>
+            <p>Copyright &copy; 2019 Resproject</p>
+        </footer>
+    
+    </div>
+    </body>
+
+</html>
